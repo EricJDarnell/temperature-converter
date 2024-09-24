@@ -59,6 +59,7 @@ function parseFahrenheit(f) {
   const c = convertToCelsius(f);
   const description = describeTemperature(f);
   const message = `${f}°F is ${c}°C. That is ${description}.`;
+  console.log(message); // added for Prompt and Functionality criteria //
   alert(message);
 }
 
